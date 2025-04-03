@@ -9,6 +9,8 @@
 
 I am assuming that in a ASN file every box has unique Identifier field and that every box can contain only one ISBN. If it is not then validation must be added (e.g. using dictionaries to check for duplicate ids and increasing quantity if there are more than one ISBN in the box).
 
+SQL which is used for DB is in VRGroupTask/sql.sql
+
 # Task Description 
 Alongside this challenge, you will also find a [sample data file](data.txt), which is a fixed-length text file.
 
